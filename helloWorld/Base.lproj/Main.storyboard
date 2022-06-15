@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="helloWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TaS-1o-Pet">
-                                <rect key="frame" x="64" y="20" width="788" height="176.5"/>
+                                <rect key="frame" x="64" y="20" width="716" height="164.66666666666666"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OoC-mf-Csh">
-                                <rect key="frame" x="64" y="216.5" width="788" height="176.5"/>
+                                <rect key="frame" x="64" y="204.66666666666663" width="716" height="164.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                         </subviews>
@@ -29,16 +29,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="OoC-mf-Csh" firstAttribute="width" secondItem="TaS-1o-Pet" secondAttribute="width" id="PIn-ul-WS0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TaS-1o-Pet" secondAttribute="trailing" constant="20" id="T7S-a5-Ph0"/>
                             <constraint firstItem="OoC-mf-Csh" firstAttribute="top" secondItem="TaS-1o-Pet" secondAttribute="bottom" constant="20" id="VyW-Px-dUN"/>
                             <constraint firstItem="TaS-1o-Pet" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Wfy-iF-EIH"/>
                             <constraint firstItem="OoC-mf-Csh" firstAttribute="top" secondItem="TaS-1o-Pet" secondAttribute="bottom" constant="20" id="Y1J-cx-SfQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TaS-1o-Pet" secondAttribute="trailing" id="att-Um-9nk"/>
                             <constraint firstItem="OoC-mf-Csh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="d2H-r7-I1L"/>
-                            <constraint firstItem="TaS-1o-Pet" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dB5-dN-5bf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OoC-mf-Csh" secondAttribute="trailing" constant="20" id="eBy-DT-KEK"/>
+                            <constraint firstItem="TaS-1o-Pet" firstAttribute="leading" secondItem="OoC-mf-Csh" secondAttribute="leading" id="iCB-9U-YTQ"/>
                             <constraint firstItem="OoC-mf-Csh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kLZ-2e-nda"/>
-                            <constraint firstItem="TaS-1o-Pet" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mGA-Yc-0xM"/>
                             <constraint firstItem="OoC-mf-Csh" firstAttribute="height" secondItem="TaS-1o-Pet" secondAttribute="height" id="zbt-0f-jbL"/>
                         </constraints>
                     </view>
